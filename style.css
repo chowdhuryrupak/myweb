@@ -1,0 +1,112 @@
+.top-container{
+    /* background-color: #bce6eb; */
+    background-color: #7C83FD;
+    position:relative;
+    padding-top: 100px;
+    /* border: solid 10px black;
+    width: 200px;
+    height:200px;
+    padding: 20px;
+    /* margin: 5px; */
+ /* margin: 0; */
+}
+ h1{
+    margin:0;
+    font-family: 'Great Vibes', cursive;
+    font-size: 5rem;
+    /* line-height:2; */
+/* font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Parisienne', cursive;
+font-family: 'Sacramento', cursive; */
+} 
+body{
+    margin: 0;
+    text-align: center;
+    /* font-family: 'Great Vibes', cursive; */
+    /* font-family: 'Parisienne', cursive; */
+    font-family: 'Montserrat', sans-serif;
+    /* padding-top: 100px; */
+}
+.middle-container{
+    background-color: #afc6f1;
+    /* margin: 100px 0; */
+    line-height: 2;
+    padding: 100px 10px;
+   
+}
+.bottom-container{
+    /* background-color: #66BFBF; */
+    background-color: #88FFF7;
+    /* margin-top: 20px; */
+    padding: 50px 0 20px;
+
+}
+.bottom-cloud{
+     position: absolute;
+     left: 200px;
+     top:400px;
+ }
+ .top-cloud{
+     position: relative;
+     left:400px;
+ }
+ h2{
+    font-size: 2rem;
+    font-weight: normal;
+ }
+.top-container h2,h1{
+    color:#F0E9D2;
+}
+h3,a,h4{
+    color:#11999E;
+}
+.skill-row{
+    width: 50%;
+    /* position: relative; */
+    /* left:350px; */
+    margin:80px auto;
+    text-align: left;
+}
+.skill-row p,h3{
+    line-height: 2;
+}
+.code{
+    width:23%;
+    float:left;
+    margin-right: 30px;
+}
+.Programming{
+    float:right;
+    width:23%;
+    margin-left: 30px;
+}
+hr{
+    width:10%;
+    border-style:none;
+    border-top-style: dotted;
+    border-width: 7px;
+    border-color: black;
+}
+.contact-me a{
+    text-decoration: none;
+    color:white;
+    background: #66BFBF;
+    /* margin: 15px; */
+    font-size: 20px;
+    padding: 10px;
+    font-weight:bold;
+    border-radius: 10px;
+}
+.bottom-container a{
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px 20px;
+    line-height: 2;
+}
+a:hover{
+    color:azure;
+}
+.contact-me a:hover{
+    color:brown;
+}
