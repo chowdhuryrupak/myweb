@@ -94,3 +94,44 @@ a:hover{
     font-size:1.5rem;
     color:brown;
 }
+@media(min-width:100px )and (max-width:500px){
+    body{
+        width:100%;
+        /* font-size: 20px; */
+    }
+    .top-cloud {
+        display:none;
+    }
+    .bottom-cloud{
+        width: 10%;
+        position: absolute;
+        top:25px;
+        left:290px;   
+    }
+    .code{
+        position: relative;
+        top:20px;
+    }
+    .Programming{
+        position:relative;
+        right: 80px;
+    }
+    .mountain{
+        width:70%;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    h3{
+        text-align:justify;
+    }
+    hr{
+        width:20%;
+        border-style: dotted none none;
+        border-width: 7px;
+    }
+}
+
